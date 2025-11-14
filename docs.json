@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Moon",
   "colors": {
     "primary": "#0053ff",
     "light": "#07C983",
@@ -38,7 +38,7 @@
             ]
           },
           {
-            "group": "AI tools",
+            "group": "tools",
             "pages": [
               "ai-tools/cursor",
               "ai-tools/claude-code",
