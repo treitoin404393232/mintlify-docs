@@ -1,5 +1,72 @@
 ---
-title: "Navigation"
-description: "The navigation field in docs.json defines the pages that go in the navigation menu"
+title: "starboard"
 icon: "map"
+description: "Starboard
+Allow members to repost interesting messages to a starboard channel.
+
+​
+What is Starboard?
+The starboard is a channel where members can react to messages and after a certain number of reactions, the message will be reposted to the starboard channel.
+
+You can create two starboards, both starboard and clownboard use the same structure.
+​
+Getting started
+Before you run any commands, it’s important to use the starboard unlock command. Otherwise, messages will not be reposted to the starboard channel. You can use starboard lock to temporarily stop messages from being reposted.
+​
+Setting the starboard channel
+You can use the starboard set command to set which channel messages will be reposted to.
+
+Syntax
+
+Example
+,starboard set #starboard
+
+
+​
+Ignoring channels, roles, or members
+You can ignore certain channels, roles, or members within your server to prevent their messages from appearing on the starboard.
+If you no longer want to ignore the channel, role, or member, you can re-run the command. Alternatively, you can run starboard ignore list to view all ignored channels, roles, and members.
+
+Syntax
+
+Examples
+,starboard ignore (role, member, or channel)
+
+
+​
+Customizing the starboard
+​
+Changing the reaction threshold
+You can change the minimum number of reactions a message needs to be reposted.
+
+Syntax
+
+Example
+,starboard threshold 3
+
+
+​
+Changing the emoji to watch for
+You can set the emoji that members need to react with for a message to be reposted.
+By default, this emoji is set as ⭐ for the starboard and 🤡 for the clownboard.
+
+Syntax
+
+Example
+,starboard emoji 🤩
+
+
+​
+Allowing self-starring messages
+You can allow members to star their own messages with the starboard selfstar command.
+
+Syntax
+
+Example
+,starboard selfstar true
+
+
+​
+Customizing the message displayed
+You can customize the message that is sent to the starboard channel."
 ---
